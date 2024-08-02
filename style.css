@@ -1,0 +1,66 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    color: #333;
+}
+.container{
+    display: block;
+    width: 30rem;
+    height: 36rem;
+    margin: 20rem auto;  
+    padding: 2rem 2.4rem;
+    /* padding-bottom: 2.4rem; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+h4{
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* padding: 3.2rem 4.8rem; */
+  
+}
+.form input,select{
+    padding: 10px;
+    width: 100%;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    border: none;
+   
+}
+.drop-down{
+    display: flex;
+    gap:1rem;
+}
+.drop-down select{
+    width: 12.2rem;
+    /* height: 20rem; */
+}
+
+button{
+    width: 14rem;
+    margin-top: 1.4rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    color: #fff;
+    margin-left: 6rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+
+}
